@@ -1,0 +1,4 @@
+.nav { display: flex; align-items: center; gap: 1.5rem; }
+.nav__link { text-decoration: none; font-weight: 600; padding: .25rem 0; border-bottom: 2px solid transparent; }
+.nav__link:hover { border-color: var(--line); }
+@media (max-width: 800px) { .nav { gap: 1rem; } }

@@ -1,0 +1,4 @@
+.filtros { display: flex; flex-wrap: wrap; gap: .5rem; margin-bottom: 1.5rem; }
+.filtro { font: inherit; padding: .4rem 1rem; border-radius: 999px; border: 1.5px solid var(--line); background: transparent; cursor: pointer; }
+.filtro:hover { border-color: var(--ink); }
+.filtro--activo { background: var(--ink); color: var(--bg); border-color: var(--ink); }

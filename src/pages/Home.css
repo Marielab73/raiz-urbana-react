@@ -1,0 +1,40 @@
+.hero { display: grid; 
+    grid-template-columns: 1.2fr 1fr;
+     gap: 2rem; align-items: center; 
+     padding: 3.5rem 0 2.5rem; }
+.hero__texto p { max-width: 46ch; 
+    color: var(--muted);
+     font-size: 1.15rem; 
+     margin: 0 0 1.5rem; }
+
+.hero__arte {
+  background: #dbe6df;
+  border-radius: var(--radius);
+  overflow: hidden;
+  }
+  
+ .hero__imagen {
+  display: block;
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+
+.hero__homenaje {
+  margin-top: .5rem;
+  text-align: center;
+  font-size: .85rem;
+  color: var(--muted);
+  font-style: italic;
+}
+
+@media (max-width: 800px) {
+  .hero {
+    grid-template-columns: 1fr;
+    padding-top: 2rem;
+  }
+
+  .hero__arte {
+    max-width: 100%;
+  }
+}
